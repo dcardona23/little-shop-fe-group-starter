@@ -5,7 +5,11 @@
 }
 
 body, html {
-  background-color: gray;
+  background-color: lightblue;
+}
+
+section {
+  background-color: lavender;
 }
 
 body {
@@ -15,6 +19,12 @@ body {
 
 button, li {
   cursor: pointer;
+  border-radius: 8px;
+  
+}
+
+button:hover {
+  background-color: lightgreen;
 }
 
 /* SIDEBAR */
@@ -27,8 +37,8 @@ aside {
 header {
   text-align: center;
   margin: 10px 10px 80px 10px;
-  background-color: black;
-  color: white;
+  /* background-color: lavenderblush; */
+  color: black;
   padding: 15px;
 }
 
