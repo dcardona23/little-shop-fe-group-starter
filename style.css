@@ -2,14 +2,15 @@
  
 * {
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 body, html {
-  background-color: lightblue;
+  background: linear-gradient(to top, #1E3A8A, #87CEEB);
 }
 
 section {
-  background-color: lavender;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 body {
@@ -20,11 +21,11 @@ body {
 button, li {
   cursor: pointer;
   border-radius: 8px;
-  
 }
 
 button:hover {
   background-color: lightgreen;
+  transition: 0.6s;
 }
 
 /* SIDEBAR */
@@ -37,9 +38,11 @@ aside {
 header {
   text-align: center;
   margin: 10px 10px 80px 10px;
-  /* background-color: lavenderblush; */
-  color: black;
+  background-color:  #1E3A8A;
+  border-radius: 20px;
+  color: white;
   padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 }
 
 h1 {
@@ -49,6 +52,10 @@ h1 {
 h1, 
 h2 {
   margin: 0;
+}
+
+h2 {
+  font-size: 1.25em;
 }
 
 nav {
@@ -83,29 +90,42 @@ form {
   display: flex;
 }
 
+.input {
+  border-radius: 10px;
+}
+
 .item,
 .merchant {
   display: flex;
   background-color: lightgray;
   margin: 10px;
   padding: 5px;
+  border-radius: 20px;
 }
 
 .item {
   width: 25%;
-  height: 500px;
+  height: 465px;
+  margin: px;
+  padding: 10px;
   flex-direction: column;
   justify-content: start;
-  align-items: flex-end
+  align-items: flex-end;
+  background-color: darkgray;
 }
 
 #items-view {
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-display: flex;
 flex-wrap: wrap;
 align-items: flex-start;
+font-size:larger;
+}
+
+.item h3, .item p {
+  margin: 10px 0; 
+  padding: 10px;
 }
 
 .merchant {
