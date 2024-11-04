@@ -1,51 +1,45 @@
-# Little Shop | Group Project | Frontend Starter Repo
-
-This Little Shop FE Group Project Boilerplate is built to consume and display the data from the BE Rails API built in the Mod 2 Group Project.  
-
-Your group will pull down and continue building out your own version of this front end application.
-
-## Set Up Instructions
-
-**Note:** Do **not** clone this repo into your backend repo. Put it somewhere else as a stand alone. The BE and FE repos will remain two separate repos and you will submit the links to each.  
-
-1. Fork repo
-1. Clone forked repo and rename it `git clone <repo> <new name>` (Do not clone this into your BE repo. See note above.)
-1. `cd` into cloned repo
-1. Run `npm install`
-1. Run `npm run dev` to start developing.
-  1. You'll see in the terminal that the project has opened at "http://localhost:5173/"
-
-
-## Notes
-
-This FE application is build to consume the data from your Rails API.  In order for it to work, you must have your Rails API running on localhost:3000. You will see fetch errors when running the FE without the BE API up and running.  
-
-Follow the directions in the FE requirements portion of the Little Shop group project spec. When you are finished with the FE work, update this README to remove the current content and follow the template below.  
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
-# Hang in There  
+# Little Shop
 
 ### Abstract:
-(Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+Our project, Little Shop, is a full-stack application that allows users to manage merchants and their items. This app simplifies merchant and item management by providing functionality to create, edit, view, and delete merchant profiles and their associated items. The app makes it easy to view and filter items by merchant, offering a more organized approach to inventory management. 
 
 ### Installation Instructions:
-(What steps does a person have to take to get your app cloned down and running?)
+- Clone this repository to your local machine.
+- Navigate into the project directory.
+- Run npm install to install all dependencies.
+- Start the application by running npm run dev in the terminal.
+- Open http://localhost:5173 (or the URL specified in your terminal) in your browser to view the application.
 
 ### Preview of App:
 (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off. gifs preferred!)
 
 ### Context:
-(Give some context for the project here. How long did you have to work on it? What specific work/improvements did you contribute to this FE application?)
+Our team worked on this project over the course of approximately one week. We focused on enchancing the user experience and improving the efficienty of the existing frontend code. Specifically, we refactored functions to improve readability and performance, and we added CSS styling to ensure a visually appealing and user-friendly interface. Finally, we added client-side validation to prevent users from adding merchants without the required parameters.  
 
 ### Contributors:
-(Who worked on this application? Link to your GitHub. Consider also providing LinkedIn link)
+* [Bryan Willet](https://github.com/bwillett2003)
+* [Danielle Cardona](https://github.com/dcardona23)
+* [Jeremiah Ross](https://github.com/Crosswolfv1)
+* [Michael OBrien](https://github.com/MiTOBrien)
 
 ### Learning Goals:
-(What were the learning goals of this project? What tech did you work with?)
+This project focused on mastering core backend and frontend development practices to create a robust, user-friendly application. Key learning goals included:
+- Backend development using Ruby on Rails, ActiveRecord, and SQL, including building efficient database queries to manage one-to-many relationships and provide structured data for the frontend.
+- API development and data validation, including exposing CRUD endpoints for database resources, ensuring data integrity through model validation, and handling invalid inputs with appropriate error responses.
+- Comprehensive testing for both expected (happy path) and unexpected (sad path) outcomes.
+- Utilizing MVC architecture to organize the app, with data logic encapsulated in models, reducing complexity in controllers.
+- Frontend enhancements to improve the existing frontend, including enhancing UI styling and refactoring JavaScript code for better readability and functionality.
+- Project management utilizing GitHub Projects to track tasks and user stories.
 
 ### Wins + Challenges:
-(What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+Wins:
+
+- Successfully implemented CRUD functionality, making data management more intuitive.
+- Implemented an error serializer to streamline error handling and improve code readability.
+- Refactored key functions like filterByMerchant and findMerchant, making the code more modular and reusable.
+- Improved the app’s UI/UX by adding custom CSS styling.
+
+Challenges:
+
+- It was a challenge to ensure that all database logic was removed from our controllers to maintain a clean MVC structure. This proved challenging because it increased the complexity of our code, but we were committed to ensuring our app adhered to MVC principles and best practices. 
+- Refactoring our error handling logic to incorporate an error serializer was a significant challenge, but ultimately a valuable improvement. This change required extensive revisions to existing, functional code, which was both complex and time-consuming. However, implementing the error serializer greatly enhanced the readability and organization of our code, making it well worth the effort. 
