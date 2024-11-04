@@ -149,5 +149,5 @@ align-items: flex-start;
 /* HIDDEN ELEMENTS */
 
 .hidden {
-  display: none;
+  display: none !important;
 } 
