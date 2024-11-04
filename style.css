@@ -41,12 +41,13 @@ header {
   background-color:  #1E3A8A;
   border-radius: 20px;
   color: white;
+  font-weight: 800;
   padding: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5)
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
 }
 
 h1, 
@@ -55,7 +56,7 @@ h2 {
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 nav {
