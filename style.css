@@ -169,5 +169,5 @@ font-size:larger;
 /* HIDDEN ELEMENTS */
 
 .hidden {
-  display: none;
+  display: none !important;
 } 
