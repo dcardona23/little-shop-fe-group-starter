@@ -11,9 +11,9 @@ Our project, Little Shop, is a full-stack application that allows users to manag
 - Open http://localhost:5173 (or the URL specified in your terminal) in your browser to view the application.
 
 ### Preview of App:
-(Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off. gifs preferred!)
-
+![Little Shop Preview](https://github.com/dcardona23/little-shop-fe-group-starter/blob/main/Little%20Shop.gif)
 ### Context:
+
 Our team worked on this project over the course of approximately one week. We focused on enchancing the user experience and improving the efficienty of the existing frontend code. Specifically, we refactored functions to improve readability and performance, and we added CSS styling to ensure a visually appealing and user-friendly interface. Finally, we added client-side validation to prevent users from adding merchants without the required parameters.  
 
 ### Contributors:
