@@ -94,6 +94,7 @@ main {
   padding: 10px;
   width: 75%;
   background-color: white;
+  min-height: 100vh;
 }
 
 form {
@@ -132,6 +133,8 @@ justify-content: space-evenly;
 flex-wrap: wrap;
 align-items: flex-start;
 font-size:larger;
+background-color: white;
+min-height: 100vh;
 }
 
 .item h3, .item p {
